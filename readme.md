@@ -68,7 +68,8 @@ Before using the bot, make sure you have the following:
     - python-dotenv: To handle environment variables from the .env file.
     - poetry: To manage dependencies and the virtual environment.
 
-- **Contribution**
+### Contribution:
+
 If you wish to contribute to this project, please fork the repository and submit a pull request. Make sure to follow best practices and write clean code.
 
 
@@ -81,13 +82,13 @@ If you wish to contribute to this project, please fork the repository and submit
 
 Este es un bot para Discord que actualiza su apodo en todos los servidores en los que está presente con el precio actual de un token específico ($IP) en USD. El precio se obtiene cada 60 segundos a través de la API de CoinGecko y se actualiza en el apodo del bot con una flecha que indica si el precio ha subido o bajado.
 
-## Características
+# Características
 
 - **Actualización de Apodo**: El bot actualiza su apodo cada 60 segundos con el precio actual de $IP en USD, mostrando una flecha que indica si el precio ha subido (`↗`) o bajado (`↘`).
 - **Estado**: El bot tiene un estado estático que muestra "Watching Story IP-USD Price".
 - **Compatibilidad**: El bot está diseñado para ser usado en múltiples servidores de Discord simultáneamente.
 
-## Requisitos
+# Requisitos
 
 Antes de usar el bot, asegúrate de tener lo siguiente:
 
@@ -95,7 +96,7 @@ Antes de usar el bot, asegúrate de tener lo siguiente:
 - **Poetry**: Para manejar las dependencias del proyecto.
 - **Token de Discord**: El bot necesita un token de autenticación de Discord para funcionar.
 
-## Instalación
+# Instalación
 
 1. **Clonar el repositorio**:
     ```bash
@@ -135,13 +136,17 @@ Antes de usar el bot, asegúrate de tener lo siguiente:
    - poetry.lock: Archivo de bloqueo de dependencias generado por Poetry.
 
 
-- **Dependencias**
-# Este proyecto usa las siguientes dependencias de Python:
+# Dependencias
+## Este proyecto usa las siguientes dependencias de Python:
 
   - discord.py: Una biblioteca de Python para interactuar con la API de Discord.
   - requests: Para hacer peticiones HTTP y obtener el precio de $IP.
   - python-dotenv: Para manejar las variables de entorno desde el archivo .env.
   - poetry: Para gestionar las dependencias y el entorno virtual.
 
-- **Contribución**
+### Contribución:
+
 Si deseas contribuir a este proyecto, por favor realiza un fork y envía un pull request. Asegúrate de seguir las mejores prácticas y escribir código limpio.
+
+
+ Made with ❤️ by ankhz
