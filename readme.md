@@ -45,3 +45,30 @@ Antes de usar el bot, asegúrate de tener lo siguiente:
     ```bash
     poetry run python bot.py
     ```
+
+
+
+Estructura de Archivos
+
+   - bot.py: El archivo principal del bot.
+
+   - .env.example: Ejemplo de archivo de configuración con el token de Discord.
+
+   - pyproject.toml: Archivo de configuración de Poetry para gestionar las dependencias.
+
+   - poetry.lock: Archivo de bloqueo de dependencias generado por Poetry.
+
+
+Dependencias
+Este proyecto usa las siguientes dependencias de Python:
+
+  - discord.py: Una biblioteca de Python para interactuar con la API de Discord.
+
+  - requests: Para hacer peticiones HTTP y obtener el precio de $IP.
+
+  - python-dotenv: Para manejar las variables de entorno desde el archivo .env.
+
+  - poetry: Para gestionar las dependencias y el entorno virtual.
+
+Contribución
+Si deseas contribuir a este proyecto, por favor realiza un fork y envía un pull request. Asegúrate de seguir las mejores prácticas y escribir código limpio.
